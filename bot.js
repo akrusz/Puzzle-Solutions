@@ -12,7 +12,6 @@
 (function bot(board, bot_loc, opp_loc) {
 	var directions = ['N','E','S','W'];
 	var max = 10000;
-	var count = 0;
 
 	var count = Math.floor(Math.random() * 4);
 	var direction = directions[count];
